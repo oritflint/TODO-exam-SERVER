@@ -18,6 +18,7 @@ namespace CRUDmongoDB.models
         public bool isCompleted { get; set; } = false;
         public bool isArchived { get; set; } = false;
         public bool isSelected { get; set; } = false;
+        public int priority { get; set; } = 1;
 
 
     }
